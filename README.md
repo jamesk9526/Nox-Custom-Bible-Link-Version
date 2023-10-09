@@ -89,3 +89,46 @@ Additionally, you can support the development of this plugin by donating. Any am
 ---
 
 Made with ❤️ by James Anthony Knox | [jamesnox.com](https://jamesnox.com)
+
+
+Further documentation ---> 
+
+# Reference Material Documentation for Nox Custom Bible Link Version
+
+## 1. `ncblink.css`
+
+### Description:
+`ncblink.css` is a crucial CSS file that plays a pivotal role in ensuring the elegant presentation of Bible reference pop-ups on web pages. It meticulously styles every element associated with the pop-up, offering users a visually appealing and user-friendly interface. The file embodies a combination of root element styles and specific class styles to achieve a cohesive and harmonious design.
+
+### Detailed Breakdown:
+
+#### Root Element Styles: 
+These are foundational styles defined in the `:root` selector, providing a base for the customization of the pop-up elements. These CSS variables offer flexibility and ease of modification.
+
+- `--popup-max-width`: Governs the maximum allowable width for the pop-up, ensuring it remains visually appealing and readable across various screen sizes.
+- `--popup-padding`: Dictates the inner spacing of the pop-up, offering adequate space for content while maintaining an uncluttered look.
+- `--popup-bg-color`: Responsible for the pop-up’s background color, which can be tailored to complement the overall website theme.
+- `--popup-shadow`: Adds a subtle shadow effect to the pop-up, enhancing its visual prominence on the page.
+- `--close-button-size`: Determines the dimensions of the close button, ensuring it is easily clickable yet unobtrusive.
+- `--reference-font-size`: Controls the text size of the Bible references, ensuring readability and visual harmony.
+- `--verse-font-size`: Manages the font size of the Bible verses, balancing readability with aesthetic appeal.
+- `--link-color`: Specifies the color of hyperlinks within the pop-up, ensuring they are distinguishable and engaging.
+
+#### Pop-up Container Styles:
+The `.nbclink-popup` class encapsulates styles specific to the pop-up container. It ensures the pop-up is initially hidden and elegantly transitions to a visible state when activated.
+
+- `display: none`: Ensures the pop-up remains hidden until triggered by a user action.
+- `position: fixed`: Secures the pop-up at the center of the viewport, offering a consistent viewing experience.
+- `top` and `left`: These properties, in conjunction with `transform`, center the pop-up for optimal visibility.
+
+#### Close Button Styles:
+The `.nbclink-popup .close` class ensures the close button is styled to be visually consistent with the overall pop-up design, offering users an intuitive means to dismiss the pop-up.
+
+- It can be expanded to include properties like `color`, `font-size`, and `background-color` for enhanced customization.
+
+### Usage:
+To integrate these styles, link the `ncblink.css` file within the HTML’s head section. It ensures the styles are applied globally, offering a consistent user experience across all pages featuring the Bible reference pop-ups.
+
+### Customization Tips:
+- Adjust the CSS variables in the `:root` selector to easily tailor the pop-up’s appearance.
+- Enhance the close button styles by adding hover effects for improved user interaction.
