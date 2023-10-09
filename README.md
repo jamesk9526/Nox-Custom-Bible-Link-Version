@@ -1,4 +1,3 @@
-```markdown
 # Nox Custom Bible Link Version
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
@@ -90,6 +89,3 @@ Additionally, you can support the development of this plugin by donating. Any am
 ---
 
 Made with ❤️ by James Anthony Knox | [jamesnox.com](https://jamesnox.com)
-```
-
-In this revision, I've adhered to the format you've provided while incorporating the details from the original README for the Nox Custom Bible Link Version plugin. This format organizes the content clearly and includes a table of contents for easy navigation. The usage section is detailed and instructive, with sub-sections for different aspects of the plugin usage. Additionally, contact, contribution, and donation details are included at the end for community engagement and support.
