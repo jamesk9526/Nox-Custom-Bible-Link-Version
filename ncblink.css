@@ -1,0 +1,66 @@
+/* nbclink.css */
+
+/* Style for the pop-up container */
+.nbclink-popup {
+    display: none; /* Hide the pop-up by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* Style for the close button */
+.nbclink-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Style for the Bible reference text */
+.nbclink-reference {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the Bible verse text */
+.nbclink-verse {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Style for the overlay background */
+.nbclink-overlay {
+    display: none; /* Hide the overlay by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+}
+
+/* Style for centering content within the pop-up */
+.nbclink-center {
+    text-align: center;
+}
+
+/* Style for links within the pop-up */
+.nbclink-popup a {
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+/* Style for the main content container (if needed) */
+/* .nbclink-content {
+    // Your styles here
+} */

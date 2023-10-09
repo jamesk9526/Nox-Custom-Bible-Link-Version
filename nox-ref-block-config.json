@@ -1,0 +1,14 @@
+{
+  "name": "nox-custom-bible/nox-ref-block", // Block name in the format 'namespace/block-name'
+  "title": "Nox Reference Block",
+  "icon": "smiley",
+  "category": "common",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "User's Custom Text"
+    }
+  },
+  "edit": "jsx",
+  "render_callback": "generateBibleReference"
+}
