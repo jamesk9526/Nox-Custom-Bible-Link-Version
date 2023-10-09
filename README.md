@@ -2,10 +2,7 @@
 A Bible Referance Tool That is HTML Driven
 
 <p align="center">
-  ![image](https://github.com/jamesk9526/Nox-Custom-Bible-Link-Version/assets/93682381/308e39f4-3b06-46a1-afe1-01ff1bd50b1a)
-  ![image](https://github.com/jamesk9526/Nox-Custom-Bible-Link-Version/assets/93682381/8dfa7719-9bf6-47e4-b151-45b5fd41d2af)
-
-
+  <img src="assets/93682381/308e39f4-3b06-46a1-afe1-01ff1bd50b1a.png" alt="Plugin Screenshot">
 </p>
 
 <h1 align="center">Nox Custom Bible Link Version</h1>
@@ -27,7 +24,7 @@ A Bible Referance Tool That is HTML Driven
 Nox Custom Bible Link Version is a WordPress plugin that simplifies the handling of Bible references on your website. It offers automatic detection and conversion of Bible references into clickable links that display Bible verses in a lightbox. Additionally, you can manually wrap references in `<a>` tags with the class `bible-reference` for custom formatting.
 
 <p align="center">
-  <img src="lightbox-demo.png" alt="Lightbox Demo">
+  <img src="assets/93682381/8dfa7719-9bf6-47e4-b151-45b5fd41d2af.png" alt="Lightbox Demo">
 </p>
 
 ## Features
@@ -78,15 +75,4 @@ Settings
 You can configure the plugin settings in the WordPress admin panel. Visit the "Nox Custom Bible Link Version Settings" page to customize the appearance and behavior of the lightbox.
 Contributing
 
-Contributions are welcome! If you have any feature requests, bug reports, or other contributions, please open an issue or create a pull request.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-
-    :pray: Special thanks to James Anthony Knox for the initial inspiration and concept of this plugin.
-    :computer: This plugin was developed using WordPress, Gutenberg, and other open-source technologies.
-
-Support
-
-For support or inquiries, please contact contact@jamesnox.com.
+Contributions are welcome! If you have any feature requests, bug reports, or other contributions, please open an [issue](https://github.com
