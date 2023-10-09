@@ -2,7 +2,10 @@
 A Bible Referance Tool That is HTML Driven
 
 <p align="center">
-  <img src="screenshot.png" alt="Plugin Screenshot">
+  ![image](https://github.com/jamesk9526/Nox-Custom-Bible-Link-Version/assets/93682381/308e39f4-3b06-46a1-afe1-01ff1bd50b1a)
+  ![image](https://github.com/jamesk9526/Nox-Custom-Bible-Link-Version/assets/93682381/8dfa7719-9bf6-47e4-b151-45b5fd41d2af)
+
+
 </p>
 
 <h1 align="center">Nox Custom Bible Link Version</h1>
