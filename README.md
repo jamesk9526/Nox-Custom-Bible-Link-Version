@@ -1,78 +1,95 @@
-# Nox-Custom-Bible-Link-Version
-A Bible Referance Tool That is HTML Driven
+```markdown
+# Nox Custom Bible Link Version
 
-<p align="center">
-  <img src="assets/93682381/308e39f4-3b06-46a1-afe1-01ff1bd50b1a.png" alt="Plugin Screenshot">
-</p>
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-<h1 align="center">Nox Custom Bible Link Version</h1>
+## Table of Contents
 
-<div align="center">
-  <strong>A WordPress Plugin for Effortless Bible Reference Handling</strong>
-</div>
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Automatic Reference Detection](#automatic-reference-detection)
+  - [Manual Reference Linking](#manual-reference-linking)
+  - [Gutenberg Block](#gutenberg-block)
+- [Settings](#settings)
+- [Contribution](#contribution)
+- [License](#license)
+- [Support](#support)
 
-<div align="center">
-  <a href="https://github.com/jamesk9526/nox-custom-bible-link/releases"><img src="https://img.shields.io/github/release/jamesk9526/nox-custom-bible-link.svg" alt="GitHub Release"></a>
-  <a href="https://github.com/jamesk9526/nox-custom-bible-link/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jamesk9526/nox-custom-bible-link.svg" alt="License"></a>
-  <a href="https://wordpress.org/plugins/nox-custom-bible-link/"><img src="https://img.shields.io/wordpress/plugin/v/nox-custom-bible-link.svg" alt="WordPress Plugin"></a>
-  <a href="https://wordpress.org/plugins/nox-custom-bible-link/"><img src="https://img.shields.io/wordpress/plugin/dt/nox-custom-bible-link.svg" alt="WordPress Downloads"></a>
-  <a href="https://github.com/jamesk9526/nox-custom-bible-link/issues"><img src="https://img.shields.io/badge/Need%20help%3F-Ask%20us-blue" alt="Support"></a>
-</div>
+![image](https://github.com/jamesk9526/Nox-Custom-Bible-Link-Version/assets/93682381/58d4014b-9fbe-41ea-9cb1-9621b7e97055)
 
-<br />
+## Description
 
-Nox Custom Bible Link Version is a WordPress plugin that simplifies the handling of Bible references on your website. It offers automatic detection and conversion of Bible references into clickable links that display Bible verses in a lightbox. Additionally, you can manually wrap references in `<a>` tags with the class `bible-reference` for custom formatting.
-
-<p align="center">
-  <img src="assets/93682381/8dfa7719-9bf6-47e4-b151-45b5fd41d2af.png" alt="Lightbox Demo">
-</p>
+Nox Custom Bible Link Version is a WordPress plugin aimed at simplifying the handling of Bible references on your website. It enables automatic detection and conversion of Bible references into clickable links, which when clicked, display the Bible verses in a lightbox. This feature enhances the user experience, allowing them to view Bible verses effortlessly without navigating away from the page.
 
 ## Features
 
-- :book: Automatic detection and conversion of Bible references.
-- :bulb: Display Bible verses in a customizable lightbox when references are clicked.
-- :hammer_and_wrench: Provides an easy-to-use Gutenberg block for manual reference linking.
-- :earth_americas: Supports multiple Bible versions and translations.
-- :gear: Configurable settings to customize the lightbox appearance.
+- **Automatic Detection**: Automatically detects and converts Bible references into clickable links.
+- **Customizable Lightbox**: Displays Bible verses in a customizable lightbox when the references are clicked.
+- **Manual Reference Linking**: Allows manual wrapping of Bible references with `<a>` tags for custom formatting.
+- **Gutenberg Block**: Provides an easy-to-use Gutenberg block for manual reference linking.
+- **Multi-Version Support**: Supports multiple Bible versions and translations.
+- **Customizable Settings**: Offers configurable settings to customize the lightbox appearance.
 
 ## Installation
 
-1. :arrow_down: Download the plugin ZIP file from the [GitHub repository](https://github.com/jamesk9526/nox-custom-bible-link).
-2. :gear: In your WordPress admin panel, navigate to the Plugins section.
-3. :heavy_plus_sign: Click "Add New" and then "Upload Plugin."
-4. :inbox_tray: Upload the ZIP file and activate the plugin.
+1. Download the `nox-custom-bible-link-version.zip` file from the [GitHub repository](https://github.com/jamesk9526/nox-custom-bible-link).
+2. In your WordPress dashboard, navigate to `Plugins` > `Add New` > `Upload Plugin`.
+3. Choose the downloaded zip file and click `Install Now`.
+4. After the installation is complete, click `Activate`.
 
 ## Usage
 
 ### Automatic Reference Detection
 
-The plugin can automatically detect and convert Bible references in your content into clickable links. For example, if you write "John 3:16" in your post or page content, it will be automatically converted into a clickable link.
+The plugin can automatically detect and convert Bible references in your content into clickable links. For instance, writing "John 3:16" in your post or page content will turn it into a clickable link.
 
 ### Manual Reference Linking
 
-You can manually wrap your Bible references in `<a>` tags with the class `bible-reference` for custom formatting. For example:
-
+You can manually wrap your Bible references in `<a>` tags with the class `bible-reference` for custom formatting. 
 ```html
 <a href="#" class="bible-reference">John 3:16</a>
+```
 
-Gutenberg Block
+### Gutenberg Block
 
-For more control over how the Bible references are displayed, you can use the provided Gutenberg block. Follow these steps:
+For more control over how the Bible references are displayed, use the provided Gutenberg block:
+1. Add a new block in the editor by clicking the "+" button.
+2. In the search bar, type "Nox Reference Block" and add it to your post or page.
+3. In the block settings, you can enter your custom text or Bible reference.
 
-    :heavy_plus_sign: Add a new block in the editor by clicking the "+" button.
-    :mag_right: In the search bar, type "Nox Reference Block" and add it to your post or page.
-    :pencil: In the block settings, you can enter your custom text or Bible reference.
+Example:
+```markdown
+1. Add the "Nox Reference Block" to your content.
+2. In the block settings, enter your custom text or Bible reference (e.g., "John 3:16").
+3. The block generates a clickable link using the entered text or reference.
+```
 
-Here's how to manually create a Bible reference link using the Gutenberg block:
+## Settings
 
-    :heavy_plus_sign: Add the "Nox Reference Block" to your content.
-    :pencil: In the block settings, enter your custom text or Bible reference (e.g., "John 3:16").
-    :computer_mouse: The block will generate a clickable link using the entered text or reference.
+Navigate to the "Nox Custom Bible Link Version Settings" page in your WordPress admin panel to configure the plugin according to your preferences.
 
-You can use this Gutenberg block to create customized Bible reference links with specific text or formatting as needed.
-Settings
+## Contribution
 
-You can configure the plugin settings in the WordPress admin panel. Visit the "Nox Custom Bible Link Version Settings" page to customize the appearance and behavior of the lightbox.
-Contributing
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
-Contributions are welcome! If you have any feature requests, bug reports, or other contributions, please open an [issue](https://github.com
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support or inquiries, please contact [contact@jamesnox.com](mailto:contact@jamesnox.com).
+
+Additionally, you can support the development of this plugin by donating. Any amount is greatly appreciated!
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate?hosted_button_id=6K8ZXLZNRWYDJ)
+
+---
+
+Made with ❤️ by James Anthony Knox | [jamesnox.com](https://jamesnox.com)
+```
+
+In this revision, I've adhered to the format you've provided while incorporating the details from the original README for the Nox Custom Bible Link Version plugin. This format organizes the content clearly and includes a table of contents for easy navigation. The usage section is detailed and instructive, with sub-sections for different aspects of the plugin usage. Additionally, contact, contribution, and donation details are included at the end for community engagement and support.
