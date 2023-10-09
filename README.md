@@ -7,7 +7,7 @@ A Bible Referance Tool That is HTML Driven
 
 # Nox Custom Bible Link Version
 
-[![GitHub release](https://img.shields.io/github/release/jamesk9526/nox-custom-bible-link.svg)](https://github.com/jamesk9526/nox-custom-bible-link/releases)
+
 [![GitHub license](https://img.shields.io/github/license/jamesk9526/nox-custom-bible-link.svg)](https://github.com/jamesk9526/nox-custom-bible-link/blob/main/LICENSE)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/nox-custom-bible-link.svg)](https://wordpress.org/plugins/nox-custom-bible-link/)
 [![WordPress](https://img.shields.io/wordpress/plugin/dt/nox-custom-bible-link.svg)](https://wordpress.org/plugins/nox-custom-bible-link/)
